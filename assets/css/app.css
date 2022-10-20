@@ -1,0 +1,68 @@
+html {
+	scroll-behavior: smooth;
+	font-family: "Roboto", sans-serif;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.2s ease;
+}
+
+.gradient-text {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fade-enter-from,
+.fade-leave-active {
+	opacity: 0;
+}
+
+
+button,
+img,
+a,
+input {
+	outline: none !important;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+	width: 2px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	@apply bg-true-gray-300 dark:bg-true-gray-700;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	@apply bg-true-gray-600 dark:bg-true-gray-900;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-true-gray-700 dark:bg-true-gray-900;
+}
+
+#appbar{
+   -webkit-app-region: drag;
+}
+
+#appbar button{
+  @apply w-7 h-7 text-gray-200 flex items-center justify-center hover:text-true-gray-400 outline-none border-none focus:outline-none;
+  -webkit-app-region: no-drag;
+}
+
+#appbar button#closeBtn{
+  @apply hover:text-red-600 disabled:text-red-300;
+}
+
+#topBar{
+  -webkit-app-region: drag;
+}
+
+#clickArea{
+  -webkit-app-region: no-drag;
+}
