@@ -50,7 +50,7 @@ Follow these steps to get started with this template:
   "version":"0.0.1",
   "preview_image_url":"",
   "github":{
-     "owner":"ImY0mu",_
+     "owner":"ImY0mu",
      "repository":"hub-app_template_pure",
      "link_to_repository":"https://github.com/ImY0mu/hub-app_template_pure"
   }
